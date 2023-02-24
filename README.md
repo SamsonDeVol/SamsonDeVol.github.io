@@ -1,6 +1,6 @@
 # Personal Webpage via GitHub Pages
 
-Template curtosy of:
+Template Credit:
 
 Fractal by HTML5 UP
 html5up.net | @ajlkn
