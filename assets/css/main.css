@@ -1972,7 +1972,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #4696e5;
+			background-color: #56abff;
 			color: #ffffff !important;
 		}
 
@@ -2329,7 +2329,7 @@ input, select, textarea {
 			box-shadow: none;
 			border-radius: 0;
 			margin: 0 0 3em 0;
-			width: 13em;
+			width: 25em;
 		}
 
 			.image.phone img {
@@ -2720,16 +2720,19 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 2.5em 0;
-		text-align: center;
+		margin: 0 5em 0 5em;
+		text-align: left;
 	}
 
 		header.major:after {
 			content: '';
-			border-bottom: solid 2px #e6e6e6;
 			display: block;
 			width: 4em;
 			margin: 2em auto 0 auto;
+		}
+
+		header.major h2 {
+			text-align: center;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2923,7 +2926,7 @@ input, select, textarea {
 
 	.wrapper {
 		padding: 4.5em 0 2.5em 0 ;
-		background-color: #ffffff;
+		background-color: #eeeeee;
 		border-bottom: solid 2px #eeeeee;
 	}
 
