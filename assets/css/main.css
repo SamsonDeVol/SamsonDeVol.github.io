@@ -151,7 +151,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Cascadia Mono;
 		font-weight: normal;
 		line-height: 1.5em;
 		letter-spacing: -0.015em;
@@ -328,9 +328,7 @@ input, select, textarea {
 		color: #828282;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #828282;
-	}
+
 
 	blockquote {
 		border-left-color: #e6e6e6;
@@ -3145,16 +3143,15 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #fbfbfb;
+			background-color: rgb(44, 42, 46);
 			color: #999999;
 		}
-
 			.wrapper.style2 input[type="submit"],
 			.wrapper.style2 input[type="reset"],
 			.wrapper.style2 input[type="button"],
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
-				background-color: transparent;
+				background-color: rgb(25, 24, 26);;
 				color: #828282 !important;
 				box-shadow: inset 0 0 0 2px #e6e6e6;
 			}
@@ -3341,16 +3338,34 @@ input, select, textarea {
 				color: #828282;
 			}
 
-			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
-				color: #828282;
+			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h6 {
+				color: rgb(236,156,112);
+			}
+			.wrapper.style2 .skill-category {
+				color: rgb(236, 108, 136);
+			}
+			.wrapper.style2 h4 {
+				color: rgb(236, 251, 251);
 			}
 
+			.wrapper.style2 .skills-container {
+				display: flex;
+				justify-content: space-evenly;
+	
+			}
+			.wrapper.style2 .skill-container {
+				width: 30%;
+				border: solid rgba(240, 215, 120) 2px;
+				border-radius: 5%;
+				background-color: rgb(25, 24, 26);
+				text-align: center;
+			}
 			.wrapper.style2 blockquote {
 				border-left-color: #e6e6e6;
 			}
 
 			.wrapper.style2 code {
-				background: rgba(144, 144, 144, 0.075);
+				background: rgba(41, 41, 46, 0.075);
 				border-color: #e6e6e6;
 			}
 
@@ -3359,7 +3374,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background-color: #f7f7f7;
+			background-color: rgb(33, 31, 34);
 			color: #999999;
 		}
 
@@ -3556,7 +3571,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
-				color: #828282;
+				color: rgb(231, 200, 115);
 			}
 
 			.wrapper.style3 blockquote {
@@ -3619,8 +3634,11 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: #aa92b1;
-		color: #d1e5f9;
+		/* background-color: #aa92b1; */
+		background-color: rgb(33, 31, 34);
+		/* background-color: rgba(44, 42, 46); */
+		/* color: #d1e5f9; */
+		color: rgb(169, 220, 118);
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3634,7 +3652,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+		background-image: url("images/overlay.png");
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
@@ -3646,11 +3664,17 @@ input, select, textarea {
 		#header input[type="reset"],
 		#header input[type="button"],
 		#header button,
-		#header .button {
+		#header .projects-button {
 			background-color: transparent;
-			color: #ffffff !important;
+			color: rgb(168, 159, 236) !important;
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 		}
+		#header .about-button{
+			background-color: transparent;
+			color: rgb(236,156,112) !important;
+			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+		}
+
 
 			#header input[type="submit"]:hover,
 			#header input[type="reset"]:hover,
@@ -3679,7 +3703,7 @@ input, select, textarea {
 			}
 
 		#header label {
-			color: #ffffff;
+			color: rgb(169, 220, 118);
 		}
 
 		#header input[type="text"],
@@ -3750,7 +3774,7 @@ input, select, textarea {
 		}
 
 		#header .icon {
-			color: #b5d5f5;
+			color: rgb(120, 220, 232);
 		}
 
 		#header .image {
@@ -3762,7 +3786,7 @@ input, select, textarea {
 			}
 
 				#header .image.phone .inner, #header .image.phone:before, #header .image.phone:after {
-					border-color: rgba(255, 255, 255, 0.25);
+					border-color: rgba(240, 215, 120);
 				}
 
 				#header .image.phone .inner:before {
@@ -3808,7 +3832,9 @@ input, select, textarea {
 		#header a {
 			color: inherit;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
-			color: #ffffff;
+			/* color: rgb(239, 156, 112); */
+			/* color: rgb(169, 220, 118) */
+			color: rgb(251, 251, 251)
 		}
 
 		#header strong, #header b {
@@ -3846,7 +3872,9 @@ input, select, textarea {
 			#header p br {
 				display: inline;
 			}
-
+		#header .name-span {
+			color: rgb(169, 220, 118)
+		}
 		#header .content {
 			-moz-transition: opacity 0.5s ease, -moz-transform 1s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 1s ease;
