@@ -2718,7 +2718,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 5em 0 5em;
+		margin: 0 10em 0 10em;
 		text-align: left;
 	}
 
@@ -3343,6 +3343,11 @@ input, select, textarea {
 
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h6 {
 				color: rgb(168, 159, 236);
+				font-weight: bold;
+			}
+			.wrapper.style h3 {
+				color: #eeeeee
+				
 			}
 			.wrapper.style2 .skill-category {
 				color: rgb(236, 108, 136);
