@@ -2925,7 +2925,9 @@ input, select, textarea {
 	.wrapper {
 		padding: 4.5em 0 2.5em 0 ;
 		background-color: #eeeeee;
-		border-bottom: solid 2px #eeeeee;
+		/* border-bottom: solid 2px #eeeeee; */
+		border-top: solid 2px #eeeeee;
+		border-style: inset;
 	}
 
 		.wrapper > .inner {
@@ -3139,11 +3141,12 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 hr {
-				border-bottom-color: rgba(255, 255, 255, 0.25);
+				border-bottom-color: rgba(155, 255, 255);
 			}
 
 		.wrapper.style2 {
-			background-color: rgb(44, 42, 46);
+			background-color: rgb(33, 31, 34);
+			background-image: url("images/overlay.png");
 			color: #999999;
 		}
 			.wrapper.style2 input[type="submit"],
@@ -3339,7 +3342,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h6 {
-				color: rgb(236,156,112);
+				color: rgb(168, 159, 236);
 			}
 			.wrapper.style2 .skill-category {
 				color: rgb(236, 108, 136);
@@ -3351,15 +3354,22 @@ input, select, textarea {
 			.wrapper.style2 .skills-container {
 				display: flex;
 				justify-content: space-evenly;
-	
+				gap: 5%;
 			}
 			.wrapper.style2 .skill-container {
-				width: 30%;
+				flex: 1;
+				width: 20%;
+			
+				flex-basis: 0;
 				border: solid rgba(240, 215, 120) 2px;
 				border-radius: 5%;
 				background-color: rgb(25, 24, 26);
 				text-align: center;
 			}
+				.wrapper.style2 .skill-container:hover {
+					flex: 1.2;
+					font-size: 32;
+				}
 			.wrapper.style2 blockquote {
 				border-left-color: #e6e6e6;
 			}
@@ -3375,6 +3385,7 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background-color: rgb(33, 31, 34);
+			background-image: url("images/overlay.png");
 			color: #999999;
 		}
 
@@ -3671,7 +3682,7 @@ input, select, textarea {
 		}
 		#header .about-button{
 			background-color: transparent;
-			color: rgb(236,156,112) !important;
+			color: rgb(168, 159, 236) !important;
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 		}
 
