@@ -2792,9 +2792,12 @@ input, select, textarea {
 			}
 
 			.spotlight:nth-child(2n) .content {
-				text-align: right;
+				text-align: left;
 			}
-
+			/* .spotlight:nth-child(2n) .content h3{
+				text-align: right;			
+			} */
+	
 	@media screen and (max-width: 736px) and (orientation: landscape) {
 
 		.spotlight .image {
@@ -3149,6 +3152,25 @@ input, select, textarea {
 			background-image: url("images/overlay.png");
 			color: #999999;
 		}
+		.projects-title {
+			text-align: center;
+	
+		}
+		.projects-title h2{
+			color:rgb(168, 159, 236);	
+			font-weight: bold; 
+		}
+
+			.wrapper.style2 .json-about {
+				display: flex;
+				overflow-x: auto;
+				flex-wrap: nowrap;
+				
+				
+			}
+			.about-value {
+				color:rgb(236, 108, 136)
+			}
 			.wrapper.style2 input[type="submit"],
 			.wrapper.style2 input[type="reset"],
 			.wrapper.style2 input[type="button"],
@@ -3586,8 +3608,16 @@ input, select, textarea {
 				color: #828282;
 			}
 
-			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
+			.wrapper.style3 h1, .wrapper.style3 h5, .wrapper.style3 h6 {
 				color: rgb(231, 200, 115);
+			}
+			.wrapper.style3 h3 {
+				color:rgb(120, 220, 232);
+			}
+			.wrapper.style3 h4 {
+				font-size: 1.1em;
+				line-height: 1.5em;
+				color:rgb(251, 251, 251);
 			}
 
 			.wrapper.style3 blockquote {
@@ -4127,7 +4157,9 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background-color: #f7f7f7;
+		border-top: solid 2px #eeeeee;
+		background-color: rgb(33, 31, 34);
+		background-image: url("images/overlay.png");
 		color: #999999;
 		padding: 4.5em 0 2.5em 0 ;
 		color: #b0b0b0;
