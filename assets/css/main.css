@@ -3161,15 +3161,32 @@ input, select, textarea {
 			font-weight: bold; 
 		}
 
+		.json-level1 {
+			margin-left: 7%;
+			margin-top: 1em;
+			display: flex;
+			justify-content: flex-start;
+			gap: 5px;
+			flex-direction: column;
+		}
+		.json-level2 {
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+		.json-level3 {
+			margin-left: 10%;
+		}
+		.json-item {
+			padding: 4px;
+		}
+
 			.wrapper.style2 .json-about {
 				display: flex;
 				overflow-x: auto;
 				flex-wrap: nowrap;
-				
-				
 			}
 			.about-value {
-				color:rgb(236, 108, 136)
+				color:rgba(240, 110, 140);
 			}
 			.wrapper.style2 input[type="submit"],
 			.wrapper.style2 input[type="reset"],
@@ -3364,6 +3381,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h6 {
+				/* color: rgb(168, 159, 236); */
 				color: rgb(168, 159, 236);
 				font-weight: bold;
 			}
